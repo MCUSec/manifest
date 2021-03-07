@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="s2e" fetch="." />
+  <remote  name="MCUSec" fetch="." />
 
-  <default revision="master" remote="s2e" sync-j="4" />
+  <default revision="master" remote="MCUSec" sync-j="4" />
 
-  <project name="scripts">
+  <project name="scripts" revision="arm-support">
       <linkfile src="Makefile" dest="Makefile"/>
       <linkfile src="Makefile.docker" dest="Makefile.docker"/>
   </project>
   <project name="decree"/>
-  <project name="guest-images"/>
-  <project name="qemu" revision="v3.0.0-se"/>
-  <project name="s2e"/>
+  <project name="qemu-s2e" revision="uEmu"/>
+  <project name="s2e"  revision="uEmu"/>
 
-  <!--
-    One would normally clone s2e-env first, then run s2e init, which would call this repo script.
-    We need to clone s2e-env a second time here so that it is possible to build the docker image.
-    TODO: think about how to remove this.
-  -->
-  <project name="s2e-env"/>
-
-  <project name="s2e-linux-kernel"/>
 </manifest>
-

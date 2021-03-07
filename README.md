@@ -1,10 +1,10 @@
-S2E Source Manifests
+uEmu Source Manifests
 ====================
 
-This repository contains the ``repo`` manifests to manage S2E's repositories.
+This repository contains the ``repo`` manifests to manage S2E-uEmu's repositories.
 
 
 
     sudo apt-get install repo
-    repo init -u git://github.com/s2e/manifest.git
+    repo init -u https://github.com/MCUSec/manifest.git -b uEmu
     repo sync
