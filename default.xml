@@ -9,7 +9,7 @@
       <linkfile src="Makefile.docker" dest="Makefile.docker"/>
   </project>
   <project name="decree"/>
-  <project name="qemu-s2e" revision="uEmu"/>
+  <project name="qemu" revision="uEmu"/>
   <project name="s2e"  revision="uEmu"/>
 
 </manifest>
