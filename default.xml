@@ -11,5 +11,6 @@
   <project name="decree"/>
   <project name="qemu" revision="uEmu"/>
   <project name="s2e"  revision="uEmu"/>
+  <project name="AFL"  revision="uEmu"/>
 
 </manifest>
