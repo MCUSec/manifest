@@ -4,7 +4,7 @@
 
   <default revision="master" remote="MCUSec" sync-j="4" />
 
-  <project name="scripts" revision="arm-support">
+  <project name="scripts" revision="ratava">
       <linkfile src="Makefile" dest="Makefile"/>
       <linkfile src="Makefile.docker" dest="Makefile.docker"/>
   </project>
