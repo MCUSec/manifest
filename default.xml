@@ -12,5 +12,6 @@
   <project name="qemu" revision="uEmu"/>
   <project name="s2e-ratava"  revision="main"/>
   <project name="AFL"  revision="uEmu"/>
+  <project name="ratava-samples" revision="main"/>
 
 </manifest>
