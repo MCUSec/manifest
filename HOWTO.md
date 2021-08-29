@@ -30,7 +30,7 @@ This section shows how to use ```RatavaDump``` plugin to trace the execution of 
 The following configurations should be done prior to run ```RatavaDump```. Open ```$uEmuDIR/uEmu-config.lua``` file by ```vim```.
 
 In ```pluginsConfig.RatavaDump``` structure:
-- Specify the output path of tracing log in ```outputTrachPath``` field.
+- Specify the output path of tracing log in ```outputTracePath``` field.
 - Sepcify the end point in which switch to other exploration paths in ```traceEndPoint``` field. (Default is ```0x5f6``` for ```hello world``` program)
 
 In ```pluginsConfig.Vmi``` structure:
