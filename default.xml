@@ -10,7 +10,6 @@
   </project>
   <project name="decree"/>
   <project name="qemu" revision="uEmu"/>
-  <project name="s2e"  revision="NLP-Test"/>
-  <project name="AFL"  revision="uEmu"/>
+  <project name="s2e"  revision="SEmu"/>
 
 </manifest>
