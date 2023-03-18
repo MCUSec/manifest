@@ -10,6 +10,6 @@
   </project>
   <project name="decree"/>
   <project name="qemu" revision="uEmu"/>
-  <project name="s2e"  revision="SEmu"/>
+  <project name="s2e"  revision="Pipe"/>
 
 </manifest>
